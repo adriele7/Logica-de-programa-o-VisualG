@@ -1,19 +1,19 @@
 Algoritmo "Sucessor"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Algoritmo para ler um valor e escrever seu sucessor.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : Algoritmo para ler um valor e escrever seu sucessor.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 18/03/2024
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 numero1:inteiro
 sucessor:inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Digite um número ")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+Escreval("Digite um nÃºmero ")
 Leia(numero1)
 sucessor<-numero1 + 1
-Escreval("O número sucessor é: ", sucessor)
+Escreval("O nÃºmero sucessor Ã©: ", sucessor)
 
 Fimalgoritmo
