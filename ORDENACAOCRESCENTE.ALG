@@ -1,16 +1,16 @@
 Algoritmo "OrdenacaoCrescente"
-// Disciplina  : [Lógica de Programação com javaScript]
-// Descrição   : Este programa ordena três valores fornecidos pelo usuário
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com javaScript]
+// DescriÃ§Ã£o   : Este programa ordena trÃªs valores fornecidos pelo usuÃ¡rio
 // em ordem crescente.
 // Professor   : Jailson Costa dos Santos
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 05/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    valor1, valor2, valor3, aux: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Digite o primeiro valor: ")
    Leia(valor1)
    Escreva("Digite o segundo valor: ")
@@ -32,7 +32,7 @@ Inicio
       valor1 <- valor2
       valor2 <- aux
    FimSe
-   Escreval("Os valores ordenados são: ", valor1, ", ", valor2, ", ", valor3)
+   Escreval("Os valores ordenados sÃ£o: ", valor1, ", ", valor2, ", ", valor3)
 
 Fimalgoritmo
 
