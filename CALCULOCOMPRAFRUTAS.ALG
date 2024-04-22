@@ -1,22 +1,22 @@
 Algoritmo "CalculoCompraFrutas"
-// Disciplina  : [Lógica de Programação com javaScript]
-// Descrição   : Este programa calcula o valor a ser pago pelo cliente na
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com javaScript]
+// DescriÃ§Ã£o   : Este programa calcula o valor a ser pago pelo cliente na
 // compra de frutas.
 // Professor   : Jailson Costa dos Santos
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 05/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    kg_morango, kg_maca, preco_total: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Digite a quantidade (em Kg) de morangos adquirida: ")
    Leia(kg_morango)
-   Escreval("Digite a quantidade (em Kg) de maçãs adquirida: ")
+   Escreval("Digite a quantidade (em Kg) de maÃ§Ã£s adquirida: ")
    Leia(kg_maca)
 
-   // Calcula o preço total sem desconto
+   // Calcula o preÃ§o total sem desconto
    Se (kg_morango <= 5) Entao
       preco_total <- kg_morango * 2.50
    Senao
@@ -29,13 +29,13 @@ Inicio
       preco_total <- preco_total + (kg_maca * 1.50)
    FimSe
 
-   // Aplica desconto se necessário
+   // Aplica desconto se necessÃ¡rio
    Se ((kg_morango + kg_maca) > 8) Ou (preco_total > 25.00) Entao
       preco_total <- preco_total * 0.90 // Desconto de 10%
    FimSe
 
    // Escreve o valor a ser pago pelo cliente
-   Escreval("O valor a ser pago pelo cliente é: R$", preco_total)
+   Escreval("O valor a ser pago pelo cliente Ã©: R$", preco_total)
 
 Fimalgoritmo
 
