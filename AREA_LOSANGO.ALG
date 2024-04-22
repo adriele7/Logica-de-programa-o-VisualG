@@ -1,21 +1,21 @@
 Algoritmo "Area_Losango"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa Dos Santos
-// Descrição   : ler a diagonal maior, a diagonal menor e calcular a
-// área de um losango.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : ler a diagonal maior, a diagonal menor e calcular a
+// Ã¡rea de um losango.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 20/03/2024
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 diagonalMaior:real
 diagonalMenor:real
 area:Real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 Escreval("Digite a diagonal maior do losango: ")
 Leia(diagonalMaior)
 Escreval("Digite a diagonal menor do losango: ")
 Leia(diagonalMenor)
 area<-diagonalMaior * diagonalMenor) / 2
-Escreval("A área do losango é: ", area)
+Escreval("A Ã¡rea do losango Ã©: ", area)
 Fimalgoritmo
