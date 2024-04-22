@@ -1,30 +1,30 @@
 Algoritmo "SaldoConta"
-// Disciplina  : [Lógica de Programação com javaScript]
-// Descrição   : Este programa calcula o saldo atual de uma conta bancária e
-// verifica se é positivo ou negativo.
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com javaScript]
+// DescriÃ§Ã£o   : Este programa calcula o saldo atual de uma conta bancÃ¡ria e
+// verifica se Ã© positivo ou negativo.
 // Professor   : Jailson Costa dos Santos
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 05/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    numero_conta: inteiro
    saldo, debito, credito, saldo_atual: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Digite o número da conta do cliente: ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval("Digite o nÃºmero da conta do cliente: ")
    Leia(numero_conta)
    Escreval("Digite o saldo da conta: ")
    Leia(saldo)
-   Escreval("Digite o débito: ")
+   Escreval("Digite o dÃ©bito: ")
    Leia(debito)
-   Escreval("Digite o crédito: ")
+   Escreval("Digite o crÃ©dito: ")
    Leia(credito)
 
    // Calcula o saldo atual
    saldo_atual <- saldo - debito + credito
 
-   // Verifica se o saldo atual é positivo ou negativo
+   // Verifica se o saldo atual Ã© positivo ou negativo
    Se (saldo_atual >= 0) Entao
       Escreval("Saldo Positivo")
    Senao
@@ -32,6 +32,6 @@ Inicio
    FimSe
 
    // Exibe o saldo atual
-   Escreval("O saldo atual da conta é: R$ ", saldo_atual)
+   Escreval("O saldo atual da conta Ã©: R$ ", saldo_atual)
 
 Fimalgoritmo
