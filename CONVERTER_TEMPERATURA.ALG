@@ -1,18 +1,18 @@
 Algoritmo "Converter_Temperatura"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Converter uma temperatura fornecida em graus Celsius para
+// DescriÃ§Ã£o   : Converter uma temperatura fornecida em graus Celsius para
 // graus Fahrenheit.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 20/03/2024
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 celsius:Real
 fahrenheit:Real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 Escreval("Digite a temperatura em graus Celsius: ")
 Leia(celsius)
 fahrenheit <-(9 * celsius + 160) / 5
-Escreval("A temperatura em Fahrenheit é: ", fahrenheit, "°F")
+Escreval("A temperatura em Fahrenheit Ã©: ", fahrenheit, "Â°F")
 Fimalgoritmo
