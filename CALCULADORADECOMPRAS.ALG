@@ -1,30 +1,30 @@
 Algoritmo "CalculadoraDeCompras"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Calcular o total a pagar por um produto, considerando
+// DescriÃ§Ã£o   : Calcular o total a pagar por um produto, considerando
 // descontos baseados na quantidade adquirida, e exibir o resultado.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 05/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    nomeProduto: caractere
    quantidade, total, precoUnitario, desconto, totalPagar: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Digite a descrição do produto: ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval("Digite a descriÃ§Ã£o do produto: ")
    Leia(nomeProduto)
 
    Escreval("Digite a quantidade adquirida: ")
    Leia(quantidade)
 
-   Escreval("Digite o preço unitário: ")
+   Escreval("Digite o preÃ§o unitÃ¡rio: ")
    Leia(precoUnitario)
    total <- quantidade * precoUnitario
-   Se quantidade <= 5 Então
+   Se quantidade <= 5 EntÃ£o
       desconto <- total * 0.02
    Senao
-      Se quantidade <= 10 Então
+      Se quantidade <= 10 EntÃ£o
          desconto <- total * 0.03
       Senao
          desconto <- total * 0.05
