@@ -1,18 +1,18 @@
 Algoritmo "Conversao_Real_Dolar"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Realiza a conversão de reais para dólares.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : Realiza a conversÃ£o de reais para dÃ³lares.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 20/03/2024
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 cotacaoDolar, valorDolar, quantidadeReal: Real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Digite a cotação do dólar: ")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+Escreval("Digite a cotaÃ§Ã£o do dÃ³lar: ")
 Leia(cotacaoDolar)
 Escreval("Digite a quantidade de reais: ")
 Leia(quantidadeReal)
 valorDolar<-quantidadeReal / cotacaoDolar
-Escreval("O valor em dólares é: $", valorDolar)
+Escreval("O valor em dÃ³lares Ã©: $", valorDolar)
 Fimalgoritmo
