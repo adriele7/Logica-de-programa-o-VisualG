@@ -1,19 +1,19 @@
 Algoritmo "Verificar_Paridade"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa Dos Santos
-// Descrição   : Verificar se o número é ímpar ou par.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : Verificar se o nÃºmero Ã© Ã­mpar ou par.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 20/03/2024
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 numero: Inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Digite um número: ")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+Escreval("Digite um nÃºmero: ")
 Leia(numero)
-Se (numero MOD 2 = 0) Então
-Escreval("O número ", numero, " é par.")
+Se (numero MOD 2 = 0) EntÃ£o
+Escreval("O nÃºmero ", numero, " Ã© par.")
 Senao
-Escreval("O número ", numero, " é ímpar.")
+Escreval("O nÃºmero ", numero, " Ã© Ã­mpar.")
 FimSe
 Fimalgoritmo
