@@ -1,27 +1,27 @@
 Algoritmo "VerificarTriangulo"
-// Disciplina  : [LÛgica de ProgramaÁ„o com javaScript]
-// DescriÁ„o   : Este programa verifica se trÍs valores formam um tri‚ngulo.
+// Disciplina  : [L√≥gica de Programa√ß√£o com javaScript]
+// Descri√ß√£o   : Este programa verifica se tr√™s valores formam um tri√¢ngulo.
 // Professor   : Jailson Costa dos Santos
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 05/04/2024
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    A, B, C: real
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
-   Escreval("Digite o valor do lado A do tri‚ngulo: ")
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
+   Escreval("Digite o valor do lado A do tri√¢ngulo: ")
    Leia(A)
-   Escreval("Digite o valor do lado B do tri‚ngulo: ")
+   Escreval("Digite o valor do lado B do tri√¢ngulo: ")
    Leia(B)
-   Escreval("Digite o valor do lado C do tri‚ngulo: ")
+   Escreval("Digite o valor do lado C do tri√¢ngulo: ")
    Leia(C)
 
-   // Verifica se os valores formam um tri‚ngulo
+   // Verifica se os valores formam um tri√¢ngulo
    Se (A < B + C) e (B < A + C) e (C < A + B) Entao
-      Escreval("Forma um tri‚ngulo.")
+      Escreval("Forma um tri√¢ngulo.")
    Senao
-      Escreval("N„o forma um tri‚ngulo.")
+      Escreval("N√£o forma um tri√¢ngulo.")
    FimSe
 
 Fimalgoritmo
