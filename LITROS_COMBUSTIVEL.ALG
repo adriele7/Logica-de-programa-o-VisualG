@@ -1,23 +1,23 @@
 Algoritmo "Litros_Combustivel"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Calcula a quantidade de litros de combustível gasta em uma
-// viagem com base no tempo gasto e na velocidade média durante a viagem.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : Calcula a quantidade de litros de combustÃ­vel gasta em uma
+// viagem com base no tempo gasto e na velocidade mÃ©dia durante a viagem.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 20/03/2024
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 tempoViagem, velocidade, distancia, litrosUsados:real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 Escreval("Digite o tempo gasto na viagem (em horas): ")
 Leia(tempoViagem)
-Escreval("Digite a velocidade média durante a viagem (em Km/h): ")
+Escreval("Digite a velocidade mÃ©dia durante a viagem (em Km/h): ")
 Leia(velocidade)
 distancia<-tempoViagem * velocidade
 litrosUsados<-distancia / 12
-Escreval("Velocidade média: ", velocidade, " Km/h")
+Escreval("Velocidade mÃ©dia: ", velocidade, " Km/h")
 Escreval("Tempo gasto na viagem: ", tempoViagem, " horas")
-Escreval("Distância percorrida: ", distancia, " Km")
-Escreval("Quantidade de litros de combustível utilizada: ", litrosUsados, " litros")
+Escreval("DistÃ¢ncia percorrida: ", distancia, " Km")
+Escreval("Quantidade de litros de combustÃ­vel utilizada: ", litrosUsados, " litros")
 Fimalgoritmo
