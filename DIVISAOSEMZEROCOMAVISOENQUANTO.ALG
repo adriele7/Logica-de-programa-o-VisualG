@@ -1,17 +1,17 @@
 Algoritmo "DivisaoSemZeroComAvisoEnquanto"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// DescriÁ„o   : Neste algoritmo, se o segundo valor inserido for zero, ele
-// exibir· a mensagem ìVALOR INV¡LIDOî e pedir· um novo valor atÈ que o valor
+// Descri√ß√£o   : Neste algoritmo, se o segundo valor inserido for zero, ele
+// exibir√° a mensagem ‚ÄúVALOR INV√ÅLIDO‚Äù e pedir√° um novo valor at√© que o valor
 // inserido seja diferente de zero.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 05/04/2024
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    valor1, valor2: real
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
    escreval("Digite o primeiro valor:")
    leia(valor1)
 
@@ -19,11 +19,11 @@ Inicio
    leia(valor2)
 
    enquanto valor2 = 0 faca
-      escreval("VALOR INV¡LIDO")
+      escreval("VALOR INV√ÅLIDO")
       escreval("Digite um valor diferente de zero:")
       leia(valor2)
    fimenquanto
 
-   escreval("O resultado da divis„o È: ", valor1 / valor2)
+   escreval("O resultado da divis√£o √©: ", valor1 / valor2)
 
 Fimalgoritmo
