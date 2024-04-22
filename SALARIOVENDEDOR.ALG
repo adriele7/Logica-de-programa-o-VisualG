@@ -1,33 +1,33 @@
 Algoritmo "SalarioVendedor"
-// Disciplina  : [LÛgica de ProgramaÁ„o com javaScript]
-// DescriÁ„o   : Este programa calcula o sal·rio total de um vendedor com base
-// no sal·rio fixo e no valor das vendas.
+// Disciplina  : [L√≥gica de Programa√ß√£o com javaScript]
+// Descri√ß√£o   : Este programa calcula o sal√°rio total de um vendedor com base
+// no sal√°rio fixo e no valor das vendas.
 // Professor   : Jailson Costa dos Santos
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 05/04/2024
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    salario_fixo, valor_vendas, comissao, salario_total: real
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
-   Escreval("Digite o sal·rio fixo do vendedor: ")
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
+   Escreval("Digite o sal√°rio fixo do vendedor: ")
    Leia(salario_fixo)
    Escreval("Digite o valor das vendas efetuadas pelo vendedor: ")
    Leia(valor_vendas)
 
-   // Calcula a comiss„o
+   // Calcula a comiss√£o
    Se (valor_vendas <= 1500) Entao
       comissao <- valor_vendas * 0.03
    Senao
       comissao <- (1500 * 0.03) + ((valor_vendas - 1500) * 0.05)
    FimSe
 
-   // Calcula o sal·rio total
+   // Calcula o sal√°rio total
    salario_total <- salario_fixo + comissao
 
-   // Exibe o sal·rio total
-   Escreval("O sal·rio total do vendedor È: R$ ", salario_total)
+   // Exibe o sal√°rio total
+   Escreval("O sal√°rio total do vendedor √©: R$ ", salario_total)
 
 Fimalgoritmo
 
