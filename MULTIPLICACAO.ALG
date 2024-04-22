@@ -1,21 +1,21 @@
 Algoritmo "Multiplicacao"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Solicitar dois valores e exibir o resultado da multiplicação.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : Solicitar dois valores e exibir o resultado da multiplicaÃ§Ã£o.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 18/03/2024
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 numero1:inteiro
 numero2:inteiro
 multiplicacao:inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Digite um número:")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+Escreval("Digite um nÃºmero:")
 Leia(numero1)
-Escreval("Digite um número:")
+Escreval("Digite um nÃºmero:")
 Leia(numero2)
 multiplicacao <-numero1 * numero2
-Escreval("A multiplicação dos valores digitados é:", multiplicacao)
+Escreval("A multiplicaÃ§Ã£o dos valores digitados Ã©:", multiplicacao)
 
 Fimalgoritmo
