@@ -1,26 +1,26 @@
 Algoritmo "VerificarPositivoNegativoZero"
-// Disciplina  : [Lógica de Programação com javaScript]
-// Descrição   : Este programa verifica se um valor é positivo, negativo ou
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com javaScript]
+// DescriÃ§Ã£o   : Este programa verifica se um valor Ã© positivo, negativo ou
 // zero.
 // Professor   : Jailson Costa dos Santos
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 05/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    valor: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Digite um valor: ")
    Leia(valor)
 
    Se (valor > 0) Entao
-      Escreval("O valor é positivo")
+      Escreval("O valor Ã© positivo")
    Senao
       Se (valor < 0) Entao
-         Escreval("O valor é negativo")
+         Escreval("O valor Ã© negativo")
       Senao
-         Escreval("O valor é zero")
+         Escreval("O valor Ã© zero")
       FimSe
    FimSe
 
