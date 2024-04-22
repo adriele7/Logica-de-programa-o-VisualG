@@ -1,21 +1,21 @@
 Algoritmo "Area_Triangulo"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Jailson Costa Dos Santos
-// DescriÁ„o   : lÍ as dimensıes de um tri‚ngulo (base e altura), calcula e
-// escreve a ·rea do tri‚ngulo.
-// Autor(a)    : Aline Aguiar da Silva
+// Descri√ß√£o   : l√™ as dimens√µes de um tri√¢ngulo (base e altura), calcula e
+// escreve a √°rea do tri√¢ngulo.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 20/03/2024
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis
+// Se√ß√£o de Declara√ß√µes das vari√°veis
 base:real
 altura:real
 area:real
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
-Escreval("Digite a medida da base do tri‚ngulo: ")
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
+Escreval("Digite a medida da base do tri√¢ngulo: ")
 Leia(base)
-Escreval("Digite a medida da altura do tri‚ngulo: ")
+Escreval("Digite a medida da altura do tri√¢ngulo: ")
 Leia(altura)
 area<-(base * altura) / 2
-Escreval("A ·rea do tri‚ngulo È: ", area)
+Escreval("A √°rea do tri√¢ngulo √©: ", area)
 Fimalgoritmo
