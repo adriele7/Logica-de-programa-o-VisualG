@@ -1,15 +1,15 @@
 Algoritmo "Temporizador02"
-// Disciplina  : [Lógica de Programação com Javascript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com Javascript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Esse programa remete a um temporizador.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : Esse programa remete a um temporizador.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 04/04/2024
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 minutos, segundos: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 Escreval("escreva os minutos")
 Leia(minutos)
 Escreval("escreva os segundos")
