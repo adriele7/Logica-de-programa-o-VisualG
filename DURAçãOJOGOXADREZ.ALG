@@ -1,26 +1,26 @@
-Algoritmo "DuraçãoJogoXadrez"
-// Disciplina  : [Lógica de Programação com JavaScript]
+Algoritmo "DuraÃ§Ã£oJogoXadrez"
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : calcula o salário total do funcionário considerando as horas
-// trabalhadas em um mês, o salário por hora e as horas extras.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : calcula o salÃ¡rio total do funcionÃ¡rio considerando as horas
+// trabalhadas em um mÃªs, o salÃ¡rio por hora e as horas extras.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 05/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    hora_inicio, hora_fim, duracao: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Digite a hora de início do jogo (hora inteira): ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval("Digite a hora de inÃ­cio do jogo (hora inteira): ")
    Leia(hora_inicio)
    Escreval("Digite a hora de fim do jogo (hora inteira): ")
    Leia(hora_fim)
    Se (hora_fim > hora_inicio) Entao
       duracao <- hora_fim - hora_inicio
    Senao
-      // Caso o jogo tenha começado em um dia e terminado no outro
+      // Caso o jogo tenha comeÃ§ado em um dia e terminado no outro
       duracao <- 24 - hora_inicio + hora_fim
    FimSe
-   Escreval("A duração do jogo é de ", duracao, " horas.")
+   Escreval("A duraÃ§Ã£o do jogo Ã© de ", duracao, " horas.")
 
 Fimalgoritmo
