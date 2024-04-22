@@ -1,14 +1,14 @@
 Algoritmo "MaiorValor"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : O algoritmo lê dois valores e escrever o maior deles.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : O algoritmo lÃª dois valores e escrever o maior deles.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 20/03/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    valor1, valor2, maior: real
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Digite o primeiro valor: ")
    Leia(valor1)
    Escreval("Digite o segundo valor: ")
@@ -18,5 +18,5 @@ Inicio
    Senao
       maior <- valor2
    FimSe
-   Escreva("O maior valor é: ", maior)
+   Escreva("O maior valor Ã©: ", maior)
 Fimalgoritmo
