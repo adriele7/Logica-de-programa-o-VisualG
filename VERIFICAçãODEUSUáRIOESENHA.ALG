@@ -1,27 +1,27 @@
-Algoritmo "VerificaçãoDeUsuárioESenha"
-// Disciplina  : [Lógica de Programação com JavaScript]
+Algoritmo "VerificaÃ§Ã£oDeUsuÃ¡rioESenha"
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Verificar se o código de usuário e senha estão corretos.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : Verificar se o cÃ³digo de usuÃ¡rio e senha estÃ£o corretos.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 05/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    codigoUsuario, codigoCorreto, senhaCorreta, senha: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    codigoCorreto <- 1234
    senhaCorreta <- 9999
-   Escreval("Digite o código de usuário: ")
+   Escreval("Digite o cÃ³digo de usuÃ¡rio: ")
    Leia(codigoUsuario)
-   Se codigoUsuario <> codigoCorreto Então
-      Escreva("Usuário inválido!")
-   Senão
+   Se codigoUsuario <> codigoCorreto EntÃ£o
+      Escreva("UsuÃ¡rio invÃ¡lido!")
+   SenÃ£o
       Escreva("Digite a senha: ")
       Leia(senha)
-      Se senha <> senhaCorreta Então
+      Se senha <> senhaCorreta EntÃ£o
          Escreva("Senha incorreta!")
-      Senão
+      SenÃ£o
          Escreva("Acesso permitido!")
       FimSe
    FimSe
