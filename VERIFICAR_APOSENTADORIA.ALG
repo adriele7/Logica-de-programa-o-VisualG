@@ -1,18 +1,18 @@
 Algoritmo "Verificar_Aposentadoria"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Esse algoritmo lê as informações necessárias do empregado,
+// DescriÃ§Ã£o   : Esse algoritmo lÃª as informaÃ§Ãµes necessÃ¡rias do empregado,
 // calcula sua idade e tempo de trabalho e determina se ele pode se aposentar
-// com base nos critérios fornecidos.
-// Autor(a)    : Aline Aguiar da Silva
+// com base nos critÃ©rios fornecidos.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 05/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    anoNascimento, anoIngresso, idade, tempoTrabalho, codigo: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreval("Digite o código do empregado:")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   escreval("Digite o cÃ³digo do empregado:")
    leia(codigo)
    escreval("Digite o ano de nascimento do empregado:")
    leia(anoNascimento)
@@ -34,7 +34,7 @@ Inicio
          se (idade >= 60 e tempoTrabalho >= 25) entao
             escreval("Requerer aposentadoria")
          senao
-            escreval("Não requerer")
+            escreval("NÃ£o requerer")
          fimse
       fimse
    fimse
