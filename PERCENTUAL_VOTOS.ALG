@@ -1,13 +1,13 @@
 Algoritmo "Percentual_Votos"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Lê o número total de eleitores de um município, o número de
-// votos brancos, nulos e válidos e calcula e escreve o percentual que cada um
-// representa em relação ao total de eleitores.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : LÃª o nÃºmero total de eleitores de um municÃ­pio, o nÃºmero de
+// votos brancos, nulos e vÃ¡lidos e calcula e escreve o percentual que cada um
+// representa em relaÃ§Ã£o ao total de eleitores.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 18/03/2024
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 totalEleitores:inteiro
 votosBrancos:inteiro
 votosNulos:inteiro
@@ -16,19 +16,19 @@ percentualBrancos:real
 percentualNulos:real
 percentualValidos:real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Digite o número total de eleitores: ")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+Escreval("Digite o nÃºmero total de eleitores: ")
 Leia(totalEleitores)
-Escreval("Digite o número de votos brancos: ")
+Escreval("Digite o nÃºmero de votos brancos: ")
 Leia(votosBrancos)
-Escreval("Digite o número de votos nulos: ")
+Escreval("Digite o nÃºmero de votos nulos: ")
 Leia(votosNulos)
-Escreval("Digite o número de votos válidos: ")
+Escreval("Digite o nÃºmero de votos vÃ¡lidos: ")
 Leia(votosValidos)
 percentualBrancos<-(votosBrancos * 100) / totalEleitores
 percentualNulos<-(votosNulos * 100) / totalEleitores
 percentualValidos<-(votosValidos * 100) / totalEleitores
 Escreval("Percentual de votos brancos: ", percentualBrancos, "%")
 Escreval("Percentual de votos nulos: ", percentualNulos, "%")
-Escreval("Percentual de votos válidos: ", percentualValidos, "%")
+Escreval("Percentual de votos vÃ¡lidos: ", percentualValidos, "%")
 Fimalgoritmo
