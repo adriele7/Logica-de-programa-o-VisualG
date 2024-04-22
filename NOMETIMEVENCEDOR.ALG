@@ -1,30 +1,30 @@
 Algoritmo "NomeTimeVencedor"
-// Disciplina  : [Lógica de Programação com javaScript]
-// Descrição   : Este programa determina o vencedor de uma partida entre dois
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com javaScript]
+// DescriÃ§Ã£o   : Este programa determina o vencedor de uma partida entre dois
 // times.
 // Professor   : Jailson Costa dos Santos
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 05/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    time1, time2: caractere
    gols_time1, gols_time2: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Digite o nome do time 1: ")
    Leia(time1)
-   Escreval("Digite o número de gols do time 1: ")
+   Escreval("Digite o nÃºmero de gols do time 1: ")
    Leia(gols_time1)
    Escreval("Digite o nome do time 2: ")
    Leia(time2)
-   Escreval("Digite o número de gols do time 2: ")
+   Escreval("Digite o nÃºmero de gols do time 2: ")
    Leia(gols_time2)
    Se (gols_time1 > gols_time2) Entao
-      Escreval("O time vencedor é: ", time1)
+      Escreval("O time vencedor Ã©: ", time1)
    Senao
       Se (gols_time2 > gols_time1) Entao
-         Escreval("O time vencedor é: ", time2)
+         Escreval("O time vencedor Ã©: ", time2)
       Senao
          Escreval("Empate")
       FimSe
