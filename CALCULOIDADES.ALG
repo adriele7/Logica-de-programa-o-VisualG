@@ -1,16 +1,16 @@
 Algoritmo "CalculoIdades"
-// Disciplina  : [Lógica de Programação com javaScript]
-// Descrição   : Este programa calcula a soma e o produto das idades
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com javaScript]
+// DescriÃ§Ã£o   : Este programa calcula a soma e o produto das idades
 // dos homens e mulheres.
 // Professor   : Jailson Costa dos Santos
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 05/04/2024
 Var
-   // Declarações das variáveis
+   // DeclaraÃ§Ãµes das variÃ¡veis
    idadeH1, idadeH2, idadeM1, idadeM2, soma, produto: inteiro
 
 Inicio
-   // Comandos, procedimentos, funções, operadores, etc...
+   // Comandos, procedimentos, funÃ§Ãµes, operadores, etc...
    Escreval("Digite a idade do primeiro homem: ")
    Leia(idadeH1)
    Escreval("Digite a idade do segundo homem: ")
@@ -23,6 +23,6 @@ Inicio
    soma <- Max(idadeH1, idadeH2) + Min(idadeM1, idadeM2)
    produto <- Min(idadeH1, idadeH2) * Max(idadeM1, idadeM2)
 
-   Escreval("A soma é: ", soma)
-   Escreval("O produto é: ", produto)
+   Escreval("A soma Ã©: ", soma)
+   Escreval("O produto Ã©: ", produto)
 Fimalgoritmo
