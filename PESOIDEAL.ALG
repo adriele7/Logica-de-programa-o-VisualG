@@ -1,18 +1,18 @@
 Algoritmo "PesoIdeal"
-// Disciplina  : [Lógica de Programação com javaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com javaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Este programa calcula o peso ideal de uma pessoa com base na
+// DescriÃ§Ã£o   : Este programa calcula o peso ideal de uma pessoa com base na
 // altura e no sexo.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 05/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    nome: caractere
    altura, peso_ideal: real
    sexo: caractere
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Digite o nome da pessoa: ")
    Leia(nome)
    Escreval("Digite a altura da pessoa (em metros): ")
@@ -26,6 +26,6 @@ Inicio
       peso_ideal <- (62.1 * altura) - 44.7
    FimSe
 
-   Escreval("O peso ideal de ", nome, " é ", peso_ideal, " kg.")
+   Escreval("O peso ideal de ", nome, " Ã© ", peso_ideal, " kg.")
 
 Fimalgoritmo
