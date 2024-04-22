@@ -1,18 +1,18 @@
 Algoritmo "Antecessor"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Algoritmo para ler um valor e escrever o seu antecessor.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : Algoritmo para ler um valor e escrever o seu antecessor.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 18/03/2024
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 numero1:inteiro
 antecessor:inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Digite um número:")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+Escreval("Digite um nÃºmero:")
 Leia(numero1)
 antecessor <-numero1 - 1
-Escreval("O número antecessor é:", antecessor)
+Escreval("O nÃºmero antecessor Ã©:", antecessor)
 
 Fimalgoritmo
