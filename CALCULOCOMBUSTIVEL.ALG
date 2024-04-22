@@ -1,20 +1,20 @@
 Algoritmo "CalculoCombustivel"
-// Disciplina  : [LÛgica de ProgramaÁ„o com javaScript]
-// DescriÁ„o   : Este programa calcula o valor a ser pago pelo cliente de
-// acordo com o tipo e quantidade de combustÌvel.
+// Disciplina  : [L√≥gica de Programa√ß√£o com javaScript]
+// Descri√ß√£o   : Este programa calcula o valor a ser pago pelo cliente de
+// acordo com o tipo e quantidade de combust√≠vel.
 // Professor   : Jailson Costa dos Santos
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 05/04/2024
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    litros: real
    tipo_combustivel: caractere
    preco_litro_alcool, preco_litro_gasolina, preco_final: real
 
 Inicio
-   Escreval("Digite o n˙mero de litros vendidos: ")
+   Escreval("Digite o n√∫mero de litros vendidos: ")
    Leia(litros)
-   Escreval("Digite o tipo de combustÌvel (A - ¡lcool, G - Gasolina): ")
+   Escreval("Digite o tipo de combust√≠vel (A - √Ålcool, G - Gasolina): ")
    Leia(tipo_combustivel)
    Se (tipo_combustivel = 'A') Entao
       preco_litro_alcool <- 2.90
@@ -32,7 +32,7 @@ Inicio
       FimSe
    FimSe
 
-   Escreval("O valor a ser pago pelo cliente È: R$", preco_final)
+   Escreval("O valor a ser pago pelo cliente √©: R$", preco_final)
 
 Fimalgoritmo
 
