@@ -1,20 +1,20 @@
 Algoritmo "Volume_Lata_Oleo"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Calcula e apresenta o valor do volume de uma lata de óleo.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : Calcula e apresenta o valor do volume de uma lata de Ã³leo.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 20/03/2024
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 raio:Real
 altura:Real
 volume:Real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Digite o raio da lata de óleo: ")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+Escreval("Digite o raio da lata de Ã³leo: ")
 Leia(raio)
-Escreval("Digite a altura da lata de óleo: ")
+Escreval("Digite a altura da lata de Ã³leo: ")
 Leia(altura)
 volume <-pi * raio^2 * altura
-Escreval("O volume da lata de óleo é: ", volume, " unidades cúbicas.")
+Escreval("O volume da lata de Ã³leo Ã©: ", volume, " unidades cÃºbicas.")
 Fimalgoritmo
