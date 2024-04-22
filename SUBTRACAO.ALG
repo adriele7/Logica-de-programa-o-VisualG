@@ -1,20 +1,20 @@
 Algoritmo "Subtracao"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Solicitar dois valores e exibir o resultado da subtração.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : Solicitar dois valores e exibir o resultado da subtraÃ§Ã£o.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 18/03/2024
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 numero1:inteiro
 numero2:inteiro
 subtracao:inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Digite um número:")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+Escreval("Digite um nÃºmero:")
 Leia(numero1)
-Escreval("Digite um número:")
+Escreval("Digite um nÃºmero:")
 Leia(numero2)
 subtracao<-numero1 - numero2
-Escreval("A subtração dos valores digitados é:", subtracao)
+Escreval("A subtraÃ§Ã£o dos valores digitados Ã©:", subtracao)
 Fimalgoritmo
