@@ -1,39 +1,39 @@
 Algoritmo "DesvioCondicionalEncadeado"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// DescriÁ„o   : Exemplo de desvio condicional encadeado.
-// Autor(a)    : Aline Aguiar da Silva
+// Descri√ß√£o   : Exemplo de desvio condicional encadeado.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 27/03/2024
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    numero:inteiro
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
-   Escreval("Digite um n˙mero")
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
+   Escreval("Digite um n√∫mero")
    Leia(numero)
-   se numero = 1 ent„o
+   se numero = 1 ent√£o
       Escreval("Domingo")
-   sen„o
-      se numero = 2 ent„o
+   sen√£o
+      se numero = 2 ent√£o
          Escreval("Segunda")
-      sen„o
-         se numero = 3 ent„o
-            Escreval("TerÁa")
-         sen„o
-            se numero = 4 ent„o
+      sen√£o
+         se numero = 3 ent√£o
+            Escreval("Ter√ßa")
+         sen√£o
+            se numero = 4 ent√£o
                Escreval("Quarta")
-            sen„o
-               se numero = 5 ent„o
+            sen√£o
+               se numero = 5 ent√£o
                   Escreval("Quinta")
-               sen„o
-                  se numero = 6 ent„o
+               sen√£o
+                  se numero = 6 ent√£o
                      Escreval("Sexta")
-                  sen„o
-                     se numero = 7 ent„o
-                        Escreval("S·bado")
-                     sen„o
-                        Escreval("N„o h· n˙meros correspondentes")
+                  sen√£o
+                     se numero = 7 ent√£o
+                        Escreval("S√°bado")
+                     sen√£o
+                        Escreval("N√£o h√° n√∫meros correspondentes")
                      fimse
                   fimse
                fimse
