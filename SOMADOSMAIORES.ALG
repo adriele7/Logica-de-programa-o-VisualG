@@ -1,16 +1,16 @@
 Algoritmo "SomaDosMaiores"
-// Disciplina  : [Lógica de Programação com javaScript]
-// Descrição   : Este programa calcula a soma dos dois maiores valores entre
-// três valores fornecidos pelo usuário.
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com javaScript]
+// DescriÃ§Ã£o   : Este programa calcula a soma dos dois maiores valores entre
+// trÃªs valores fornecidos pelo usuÃ¡rio.
 // Professor   : Jailson Costa dos Santos
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 05/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    valor1, valor2, valor3, soma_maiores: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Digite o primeiro valor: ")
    Leia(valor1)
    Escreval("Digite o segundo valor: ")
@@ -38,7 +38,7 @@ Inicio
          FimSe
       FimSe
    FimSe
-   Escreval("A soma dos dois maiores valores é: ", soma_maiores)
+   Escreval("A soma dos dois maiores valores Ã©: ", soma_maiores)
 
 Fimalgoritmo
 
