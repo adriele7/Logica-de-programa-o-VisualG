@@ -1,21 +1,21 @@
 Algoritmo "Reajuste_Salario"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// DescriÁ„o   : LÍ o sal·rio mensal atual de um funcion·rio, o percentual de
-// reajuste e calcula o valor do novo sal·rio.
-// Autor(a)    : Aline Aguiar da Silva
+// Descri√ß√£o   : L√™ o sal√°rio mensal atual de um funcion√°rio, o percentual de
+// reajuste e calcula o valor do novo sal√°rio.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 18/03/2024
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
 salarioAtual:real
 percentualReajuste:real
 novoSalario:real
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
-Escreval("Digite o sal·rio mensal atual do funcion·rio: ")
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc... 
+Escreval("Digite o sal√°rio mensal atual do funcion√°rio: ")
 Leia(salarioAtual)
 Escreval("Digite o percentual de reajuste (em %): ")
 Leia(percentualReajuste)
 novoSalario<-salarioAtual + (salarioAtual * (percentualReajuste / 100))
-Escreval("O novo sal·rio È: R$ ", novoSalario)
+Escreval("O novo sal√°rio √©: R$ ", novoSalario)
 Fimalgoritmo
