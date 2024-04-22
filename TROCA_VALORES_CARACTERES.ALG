@@ -1,15 +1,15 @@
 Algoritmo "Troca_Valores_Caracteres"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : realizar a troca de valores entre duas variáveis A e B e
+// DescriÃ§Ã£o   : realizar a troca de valores entre duas variÃ¡veis A e B e
 // apresentar os valores trocados.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 20/03/2024
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 A, B, temp:caractere
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 Escreval("Digite o valor de A: ")
 Leia(A)
 Escreval("Digite o valor de B: ")
