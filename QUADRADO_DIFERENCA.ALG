@@ -1,18 +1,18 @@
 Algoritmo "Quadrado_Diferenca"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : calcula o volume de uma caixa retangular.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : calcula o volume de uma caixa retangular.
+// Autor(a)    :Adriele Lima Santos
 // Data atual  : 20/03/2024
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 A, B, resultado:Inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 Escreval("Digite o valor de A: ")
 Leia(A)
 Escreval("Digite o valor de B: ")
 Leia(B)
 resultado<-(A - B) * (A - B)
-Escreval("O quadrado da diferença entre ", A, " e ", B, " é: ", resultado)
+Escreval("O quadrado da diferenÃ§a entre ", A, " e ", B, " Ã©: ", resultado)
 Fimalgoritmo
