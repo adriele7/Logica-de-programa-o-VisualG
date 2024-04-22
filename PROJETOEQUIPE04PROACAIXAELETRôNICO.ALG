@@ -1,34 +1,34 @@
-Algoritmo "ProjetoEquipe04ProaCaixaEletrônico"
-// Disciplina  : [Lógica de Programação com JavaScript]
+Algoritmo "ProjetoEquipe04ProaCaixaEletrÃ´nico"
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Esse programa remete a um caixa eletrônico.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : Esse programa remete a um caixa eletrÃ´nico.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 27/03/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
  opcao:inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("ProjetoEquipe04ProaCaixaEletrônico")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval("ProjetoEquipe04ProaCaixaEletrÃ´nico")
    Escreval("")
    Escreval("Projeto Equipe04 Proa")
    Escreval("")
-   Escreval("Caixa Eletrônico")
+   Escreval("Caixa EletrÃ´nico")
    timer(1000)
    limpatela
    Escreval("")
    Escreval("Projeto Equipe04 Proa")
    Escreval("")
-   Escreval("Caixa Eletrônico")
+   Escreval("Caixa EletrÃ´nico")
    Escreval("")
    Escreval("1 - Saque")
    Escreval("")
-   Escreval("2 - Depósito")
+   Escreval("2 - DepÃ³sito")
    Escreval("")
    Escreval("3 - Pagamento")
    Escreval("")
-   Escreval("4 - Transferência")
+   Escreval("4 - TransferÃªncia")
    Escreval("")
    Escreval("5 - Saldo")
    Escreval("")
@@ -36,41 +36,41 @@ Inicio
    Escreval("")
    Escreval("7 - PIX")
    Escreval("")
-   Escreval("Selecione uma opção :")
+   Escreval("Selecione uma opÃ§Ã£o :")
    Leia(opcao)
    limpatela
    escolha opcao
    caso 1
       Escreval("")
-      Escreval("1 - Você selecionou a opção - Saque")
+      Escreval("1 - VocÃª selecionou a opÃ§Ã£o - Saque")
       Escreval("")
    caso 2
       Escreval("")
-      Escreval("2 - Você selecionou a opção - Depósito")
+      Escreval("2 - VocÃª selecionou a opÃ§Ã£o - DepÃ³sito")
       Escreval("")
    caso 3
       Escreval("")
-      Escreval("3 - Você selecionou a opção - Pagamento")
+      Escreval("3 - VocÃª selecionou a opÃ§Ã£o - Pagamento")
       Escreval("")
    caso 4
       Escreval("")
-      Escreval("4 - Você selecionou a opção - Transferência")
+      Escreval("4 - VocÃª selecionou a opÃ§Ã£o - TransferÃªncia")
       Escreval("")
    caso 5
       Escreval("")
-      Escreval("5 - Você selecionou a opção - Saldo")
+      Escreval("5 - VocÃª selecionou a opÃ§Ã£o - Saldo")
       Escreval("")
    caso 6
       Escreval("")
-      Escreval("6 - Você selecionou a opção - Extrato")
+      Escreval("6 - VocÃª selecionou a opÃ§Ã£o - Extrato")
       Escreval("")
    caso 7
       Escreval("")
-      Escreval("7 - Você selecionou a opção - PIX")
+      Escreval("7 - VocÃª selecionou a opÃ§Ã£o - PIX")
       Escreval("")
    outrocaso
       Escreval("")
-      Escreval("Não há opcao correspondente. Selecione a opção de 1 até 7")
+      Escreval("NÃ£o hÃ¡ opcao correspondente. Selecione a opÃ§Ã£o de 1 atÃ© 7")
       Escreval("")
    fimescolha
 Fimalgoritmo
