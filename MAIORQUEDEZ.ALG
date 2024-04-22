@@ -1,22 +1,22 @@
 Algoritmo "MaiorQueDez"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// DescriÁ„o   : O algoritmo solicita um valor e indica se ele È maior
+// Descri√ß√£o   : O algoritmo solicita um valor e indica se ele √© maior
 // ou menor que 10.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 05/04/2024
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    valor: inteiro
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
    Escreval("Digite um valor: ")
    Leia(valor)
-   Se (valor > 10) Ent„o
-      Escreval("… maior que 10!")
-   Sen„o
-      Escreval("N„o È maior que 10!")
+   Se (valor > 10) Ent√£o
+      Escreval("√â maior que 10!")
+   Sen√£o
+      Escreval("N√£o √© maior que 10!")
    FimSe
 
 Fimalgoritmo
