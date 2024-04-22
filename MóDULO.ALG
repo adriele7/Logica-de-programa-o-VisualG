@@ -1,21 +1,21 @@
-Algoritmo "Módulo"
-// Disciplina  : [Lógica de Programação com Javascript]
+Algoritmo "MÃ³dulo"
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com Javascript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Apresenta o módulo de um número.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : Apresenta o mÃ³dulo de um nÃºmero.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 03/04/2024
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 numero1:inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Digite o primeiro número: ")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+Escreval("Digite o primeiro nÃºmero: ")
    leia(numero1)
    se numero1<0 entao
-      Escreval("O módulo do número:",numero1," é:",numero1*-1)
+      Escreval("O mÃ³dulo do nÃºmero:",numero1," Ã©:",numero1*-1)
    senao
-      Escreval("O módulo do número:",numero1," é:",numero1)
+      Escreval("O mÃ³dulo do nÃºmero:",numero1," Ã©:",numero1)
    fimse
 
 Fimalgoritmo
