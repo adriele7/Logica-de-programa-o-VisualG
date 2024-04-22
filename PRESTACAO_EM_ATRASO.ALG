@@ -1,20 +1,20 @@
 Algoritmo "Prestacao_em_Atraso"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : calcula o valor da prestação em atraso.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : calcula o valor da prestaÃ§Ã£o em atraso.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 20/03/2024
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 valor, taxa, tempoAtraso, prestacao: Real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-Escreval("Digite o valor original da prestação: ")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+Escreval("Digite o valor original da prestaÃ§Ã£o: ")
 Leia(valor)
 Escreval("Digite a taxa de juros (em porcentagem): ")
 Leia(taxa)
 Escreval("Digite o tempo de atraso (em meses): ")
 Leia(tempoAtraso)
 prestacao<-valor + (valor * taxa / 100) * tempoAtraso
-Escreval("O valor da prestação em atraso é: ", prestacao)
+Escreval("O valor da prestaÃ§Ã£o em atraso Ã©: ", prestacao)
 Fimalgoritmo
