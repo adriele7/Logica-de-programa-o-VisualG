@@ -1,26 +1,26 @@
-Algoritmo "DiferençaDeValores"
-// Disciplina  : [Lógica de Programação com Javascript]
+Algoritmo "DiferenÃ§aDeValores"
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com Javascript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Lê dois valores e exibir a diferença do maior pelo menor.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : LÃª dois valores e exibir a diferenÃ§a do maior pelo menor.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 03/04/2024
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 numero1,numero2:real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Digite o primeiro número: ")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+Escreval("Digite o primeiro nÃºmero: ")
    leia(numero1)
-   Escreval("Digite o segundo número: ")
+   Escreval("Digite o segundo nÃºmero: ")
    leia(numero2)
    se numero1>numero2 entao
-      Escreval("A diferença do maior número pelo menor é de:",numero1-numero2)
+      Escreval("A diferenÃ§a do maior nÃºmero pelo menor Ã© de:",numero1-numero2)
    senao
       se numero2>numero1 entao
-         Escreval("A diferença do maior número pelo menor é de:",numero2-numero1)
+         Escreval("A diferenÃ§a do maior nÃºmero pelo menor Ã© de:",numero2-numero1)
       senao
-         Escreval("Os números digitados são iguais.")
+         Escreval("Os nÃºmeros digitados sÃ£o iguais.")
       fimse
    fimse
 
