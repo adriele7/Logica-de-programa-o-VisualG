@@ -1,15 +1,15 @@
 Algoritmo "OrdenarValores"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : lê dois valores e os escreve em ordem crescente.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : lÃª dois valores e os escreve em ordem crescente.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 05/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    valor1, valor2: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Digite o primeiro valor: ")
    Leia(valor1)
    Escreval("Digite o segundo valor: ")
