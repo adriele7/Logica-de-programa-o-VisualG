@@ -1,24 +1,24 @@
 Algoritmo "DivisaoSemZero"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// DescriÁ„o   : algoritmo lÍ dois valores. Se o segundo valor for zero,
-// ele pede ao usu·rio para inserir um novo valor atÈ que o valor inserido seja
-// diferente de zero. Em seguida, ele imprime o resultado da divis„o do
+// Descri√ß√£o   : algoritmo l√™ dois valores. Se o segundo valor for zero,
+// ele pede ao usu√°rio para inserir um novo valor at√© que o valor inserido seja
+// diferente de zero. Em seguida, ele imprime o resultado da divis√£o do
 // primeiro valor pelo segundo valor.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 05/04/2024
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    valor1, valor2: real
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
    escreval("Digite o primeiro valor:")
    leia(valor1)
    repita
-      escreval("Digite o segundo valor (n„o pode ser zero):")
+      escreval("Digite o segundo valor (n√£o pode ser zero):")
       leia(valor2)
    ate valor2 <> 0
-   escreval("O resultado da divis„o È: ", valor1 / valor2)
+   escreval("O resultado da divis√£o √©: ", valor1 / valor2)
 
 Fimalgoritmo
