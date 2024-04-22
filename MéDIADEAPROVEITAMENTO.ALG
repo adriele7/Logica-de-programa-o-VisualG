@@ -1,41 +1,41 @@
-Algoritmo "MédiaAproveitamento"
-// Disciplina  : [Lógica de Programação com JavaScript]
+Algoritmo "MÃ©diaAproveitamento"
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : O objetivo é calcular a média de aproveitamento do aluno
-// a partir de suas notas em três verificações e na média dos exercícios,
-// e atribuir um conceito correspondente, facilitando a avaliação no
+// DescriÃ§Ã£o   : O objetivo Ã© calcular a mÃ©dia de aproveitamento do aluno
+// a partir de suas notas em trÃªs verificaÃ§Ãµes e na mÃ©dia dos exercÃ­cios,
+// e atribuir um conceito correspondente, facilitando a avaliaÃ§Ã£o no
 // contexto educacional.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 05/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    N1, N2, N3, Media_Exercicios, Media_Aproveitamento: Real
    Conceito: Caractere
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Digite a nota da primeira verificação: ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval("Digite a nota da primeira verificaÃ§Ã£o: ")
    Leia(N1)
-   Escreval("Digite a nota da segunda verificação: ")
+   Escreval("Digite a nota da segunda verificaÃ§Ã£o: ")
    Leia(N2)
-   Escreval("Digite a nota da terceira verificação: ")
+   Escreval("Digite a nota da terceira verificaÃ§Ã£o: ")
    Leia(N3)
-   Escreva("Digite a média dos exercícios: ")
+   Escreva("Digite a mÃ©dia dos exercÃ­cios: ")
    Leia(Media_Exercicios)
    Media_Aproveitamento <- (N1 + N2 * 2 + N3 * 3 + Media_Exercicios) / 7
-   Se Media_Aproveitamento >= 9.0 Então
+   Se Media_Aproveitamento >= 9.0 EntÃ£o
       Conceito <- "A"
-   Senão
-      Se Media_Aproveitamento >= 7.5 Então
+   SenÃ£o
+      Se Media_Aproveitamento >= 7.5 EntÃ£o
          Conceito <- "B"
-      Senão
-         Se Media_Aproveitamento >= 6.0 Então
+      SenÃ£o
+         Se Media_Aproveitamento >= 6.0 EntÃ£o
             Conceito <- "C"
-         Senão
+         SenÃ£o
             Conceito <- "D"
          FimSe
       FimSe
    FimSe
-   Escreva("Média: ", Media_Aproveitamento, " - Conceito: ", Conceito)
+   Escreva("MÃ©dia: ", Media_Aproveitamento, " - Conceito: ", Conceito)
 
 Fimalgoritmo
