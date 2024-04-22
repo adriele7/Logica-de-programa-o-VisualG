@@ -1,34 +1,34 @@
 Algoritmo "VerificarEstoque"
-// Disciplina  : [LÛgica de ProgramaÁ„o com javaScript]
-// DescriÁ„o   : Este programa verifica se È necess·rio efetuar compra de um
+// Disciplina  : [L√≥gica de Programa√ß√£o com javaScript]
+// Descri√ß√£o   : Este programa verifica se √© necess√°rio efetuar compra de um
 // produto com base na quantidade em estoque.
 // Professor   : Jailson Costa dos Santos
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 05/04/2024
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    quantidade_atual: inteiro
    quantidade_maxima: inteiro
    quantidade_minima: inteiro
    quantidade_media: inteiro
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
    Escreval("Digite a quantidade atual em estoque: ")
    Leia(quantidade_atual)
-   Escreval("Digite a quantidade m·xima em estoque: ")
+   Escreval("Digite a quantidade m√°xima em estoque: ")
    Leia(quantidade_maxima)
-   Escreval("Digite a quantidade mÌnima em estoque: ")
+   Escreval("Digite a quantidade m√≠nima em estoque: ")
    Leia(quantidade_minima)
 
-   // Calcula a quantidade mÈdia
+   // Calcula a quantidade m√©dia
    quantidade_media <- (quantidade_maxima + quantidade_minima) / 2
 
-   // Verifica se È necess·rio efetuar compra
+   // Verifica se √© necess√°rio efetuar compra
    Se (quantidade_atual < quantidade_media) Entao
       Escreval("Efetuar compra")
    Senao
-      Escreval("N„o efetuar compra")
+      Escreval("N√£o efetuar compra")
    FimSe
 
 Fimalgoritmo
