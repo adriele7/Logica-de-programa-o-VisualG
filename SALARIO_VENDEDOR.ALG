@@ -1,28 +1,28 @@
 Algoritmo "Salario_Vendedor""
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Lê o número de carros vendidos, o valor total das vendas, o
-// salário fixo, o valor por carro vendido e calcula e escreve o salário
+// DescriÃ§Ã£o   : LÃª o nÃºmero de carros vendidos, o valor total das vendas, o
+// salÃ¡rio fixo, o valor por carro vendido e calcula e escreve o salÃ¡rio
 // final do vendedor.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 18/03/2024
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 numeroDeCarrosVendidos:inteiro
 valorVendas:real
 salarioFixo:real
 valorPorCarro:real
 salarioFinal:real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Digite o número de carros vendidos: ")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+Escreval("Digite o nÃºmero de carros vendidos: ")
 Leia(numeroDeCarrosVendidos)
 Escreval("Digite o valor total das vendas: ")
 Leia(valorVendas)
-Escreval("Digite o salário fixo: ")
+Escreval("Digite o salÃ¡rio fixo: ")
 Leia(salarioFixo)
 Escreval("Digite o valor por carro vendido: ")
 Leia(valorPorCarro)
 salarioFinal<-salarioFixo + (numeroDeCarrosVendidos * valorPorCarro) + (valorVendas * 0.05)
-Escreval("O salário final do vendedor é: R$ ", salarioFinal)
+Escreval("O salÃ¡rio final do vendedor Ã©: R$ ", salarioFinal)
 Fimalgoritmo
