@@ -1,17 +1,17 @@
 Algoritmo "TesteDeMesa"
-// Disciplina  : [Lógica de Programação com javaScript]
-// Descrição   : Este programa realiza um teste de mesa para um algoritmo
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com javaScript]
+// DescriÃ§Ã£o   : Este programa realiza um teste de mesa para um algoritmo
 // fornecido.
 // Professor   : Jailson Costa dos Santos
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 05/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    x, y, z: inteiro
    resposta: caractere
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Digite o valor de x: ")
    Leia(x)
    Escreval("Digite o valor de y: ")
@@ -26,8 +26,8 @@ Inicio
          resposta <- "C"
       FimSe
    FimSe
-   Escreval("O valor de z é: ", z)
-   Escreval("A resposta é: ", resposta)
+   Escreval("O valor de z Ã©: ", z)
+   Escreval("A resposta Ã©: ", resposta)
 
 Fimalgoritmo
 
