@@ -1,24 +1,24 @@
-Algoritmo "VerificarVotação"
-// Disciplina  : [Lógica de Programação com JavaScript]
+Algoritmo "VerificarVotaÃ§Ã£o"
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : O algoritmo lê o ano atual e o ano de nascimento da pessoa,
+// DescriÃ§Ã£o   : O algoritmo lÃª o ano atual e o ano de nascimento da pessoa,
 // calcula a idade, verifica se ela tem 18 anos ou mais e informa se ela
-// poderá ou não.
-// Autor(a)    : Aline Aguiar da Silva
+// poderÃ¡ ou nÃ£o.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 20/03/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    ano_atual, ano_nascimento, idade: inteiro
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Digite o ano atual: ")
    Leia(ano_atual)
    Escreval("Digite o ano de nascimento: ")
    Leia(ano_nascimento)
    idade <- ano_atual - ano_nascimento
    Se (idade >= 18) Entao
-      Escreval("Você poderá votar este ano!")
+      Escreval("VocÃª poderÃ¡ votar este ano!")
    Senao
-      Escreval("Você não poderá votar este ano.")
+      Escreval("VocÃª nÃ£o poderÃ¡ votar este ano.")
    FimSe
 Fimalgoritmo
