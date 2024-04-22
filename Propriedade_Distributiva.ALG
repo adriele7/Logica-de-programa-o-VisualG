@@ -1,18 +1,18 @@
 Algoritmo "Propriedade_Distributiva"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : realiza a leitura de quatro números inteiros (A, B, C e D),
-// em seguida calcula e apresenta todas as combinações possíveis de adição e
-// multiplicação.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : realiza a leitura de quatro nÃºmeros inteiros (A, B, C e D),
+// em seguida calcula e apresenta todas as combinaÃ§Ãµes possÃ­veis de adiÃ§Ã£o e
+// multiplicaÃ§Ã£o.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 20/03/2024
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 A, B, C, D: Inteiro
 Soma1, Soma2, Soma3, Soma4, Soma5, Soma6: Inteiro
 Multi1, Multi2, Multi3, Multi4, Multi5, Multi6: Inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 Escreval("Digite o valor de A: ")
 Leia(A)
 Escreval("Digite o valor de B: ")
@@ -33,14 +33,14 @@ Multi3 <- A * D
 Multi4 <- B * C
 Multi5 <- B * D
 Multi6 <- C * D
-Escreval("Resultados da adição:")
+Escreval("Resultados da adiÃ§Ã£o:")
 Escreval("A + B = ", Soma1)
 Escreval("A + C = ", Soma2)
 Escreval("A + D = ", Soma3)
 Escreval("B + C = ", Soma4)
 Escreval("B + D = ", Soma5)
 Escreval("C + D = ", Soma6)
-Escreval("Resultados da multiplicação:")
+Escreval("Resultados da multiplicaÃ§Ã£o:")
 Escreval("A * B = ", Multi1)
 Escreval("A * C = ", Multi2)
 Escreval("A * D = ", Multi3)
